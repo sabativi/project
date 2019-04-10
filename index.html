@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>my-project</title>
+  </head>
+  <body>
+    <body>
+      <div id="app">
+        <v-map :zoom="zoom" :center="center">
+          <v-tilelayer :url="url" :attribution="attribution"></v-tilelayer>
+          <v-marker :lat-lng="marker"></v-marker>
+        </v-map>
+      </div>
+    </body>
+    <script src="dist/build.js"></script>
+  </body>
+</html>
